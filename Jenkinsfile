@@ -24,6 +24,9 @@ pipeline {
                 sh 'scp -o StrictHostKeyChecking=no target/*.war ubuntu@18.215.160.30:/prod/apache-tomcat-8.5.56/webapps/webapp.war'
               }      
            }
+    }
+    
   }
+}
 
 
